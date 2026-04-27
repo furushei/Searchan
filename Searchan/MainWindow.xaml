@@ -1,0 +1,18 @@
+﻿<Window x:Class="Searchan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Searchan"
+        mc:Ignorable="d"
+        Title="Searchan"
+        WindowStyle="None"
+        Height="48" Width="480"
+        AllowsTransparency="True">
+    <DockPanel>
+        <Button x:Name="searchButton" DockPanel.Dock="Right" Width="48" Cursor="Hand">
+            <Image Source="pack://application:,,,/searchan-icon.png" Width="32" Height="32" />
+        </Button>
+        <TextBox x:Name="queryTextInput" FontSize="18" VerticalContentAlignment="Center" KeyDown="queryTextInput_KeyDown" />
+    </DockPanel>
+</Window>
