@@ -8,6 +8,7 @@
         Title="Searchan"
         WindowStyle="None"
         Height="48" Width="480"
+        WindowStartupLocation="CenterScreen"
         AllowsTransparency="True">
     <DockPanel>
         <Button x:Name="searchButton" DockPanel.Dock="Right" Width="48" Cursor="Hand">
